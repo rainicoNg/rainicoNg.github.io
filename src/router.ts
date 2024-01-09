@@ -1,5 +1,10 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 const routes = [
+	{
+		path: "/rainicong.github.io/",
+    name: "Home",
+    component: () => import("./views/Home.vue")
+	},
 	{
 		path: "/rainicong.github.io/lucky-draw",
 		name: "Lucky Draw",
@@ -8,7 +13,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes,
 });
 export default router;

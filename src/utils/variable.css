@@ -1,0 +1,12 @@
+:root {
+	--primary-color: #262626;
+	--secondary-color: #ffffff;
+	--primary-color-light: #262626cc;
+	--secondary-color-light: #f2f2ebcc;
+	--primary-color-fade: #26262622;
+
+	--md-header: 20px;
+	--sm-header: 16px;
+	--md-text: 16px;
+	--sm-text: 12px;
+}

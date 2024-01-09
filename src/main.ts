@@ -27,7 +27,7 @@ const i18n = createI18n({
 const vuetify = createVuetify({
   components,
   directives,
-	ssr: true,
+	ssr: false,
 	theme: {
     themes: {
       light: {

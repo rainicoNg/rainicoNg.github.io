@@ -5,14 +5,14 @@ const routes = [
 	// 	component: () => import("./views/LuckyDraw.vue"),
 	// },
 	{
-		path: "lucky-draw",
+		path: "/lucky-draw",
 		name: "Lucky Draw",
 		component: () => import("./views/LuckyDraw.vue"),
 	}
 ];
 
 const router = createRouter({
-	history: createWebHistory("/rainicong.github.io/"),
+	history: createWebHistory(),
 	routes,
 });
 export default router;

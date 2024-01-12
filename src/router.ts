@@ -1,16 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 const routes = [
 	{
-		path: "/",
-		component: () => import("./views/LuckyDraw.vue"),
-	},
-	{
-		path: "/rainicong.github.io/",
-		name: "Home",
-		component: () => import("./views/LuckyDraw.vue"),
-	},
-	{
-		path: "/rainicong.github.io/lucky-draw",
+		path: "lucky-draw",
 		name: "Lucky Draw",
 		component: () => import("./views/LuckyDraw.vue"),
 	}

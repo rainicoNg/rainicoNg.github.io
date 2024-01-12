@@ -5,7 +5,7 @@ const routes = [
 	// 	component: () => import("./views/LuckyDraw.vue"),
 	// },
 	{
-		path: "/lucky-draw",
+		path: "lucky-draw",
 		name: "Lucky Draw",
 		component: () => import("./views/LuckyDraw.vue"),
 	}
